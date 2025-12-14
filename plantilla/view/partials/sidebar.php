@@ -146,7 +146,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="disabled-link">
+                    <a href="<?php echo getUrl("Reportes", "Reportes", "getAll"); ?>" class="disabled-link">
                         <i class="far fa-chart-bar"></i>
                         <p>Reportes</p>
                     </a>

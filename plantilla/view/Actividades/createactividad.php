@@ -3,19 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <?php include_once '../partials/header.php'; ?>
+    <?php include_once '../view/partials/header.php'; ?>
 </head>
 
 <body>
     <div class="wrapper">
 
         <!-- Sidebar -->
-        <?php include_once '../partials/sidebar.php'; ?>
+        <?php include_once '../view/partials/sidebar.php'; ?>
 
         <div class="main-panel">
 
             <!-- Navbar -->
-            <?php include_once '../partials/navbar.php'; ?>
+            <?php include_once '../view/partials/navbar.php'; ?>
 
             <!-- Contenido Principal -->
             <div class="container">
@@ -100,13 +100,13 @@
             </div>
 
             <!-- Footer -->
-            <?php include_once '../partials/footer.php'; ?>
+            <?php include_once '../view/partials/footer.php'; ?>
 
         </div>
     </div>
 
     <!-- Scripts -->
-    <?php include_once '../partials/scripts.php'; ?>
+    <?php include_once '../view/partials/scripts.php'; ?>
 
 </body>
 
