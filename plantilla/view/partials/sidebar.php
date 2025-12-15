@@ -197,6 +197,13 @@
                     </a>
                 </li>
 
+                <li class="nav-item">
+                    <a href="<?php echo getUrl("Movimientos", "Movimientos", "getAll"); ?>" class="disabled-link">
+                        <i class="far fa-chart-bar"></i>
+                        <p>Movimientos</p>
+                    </a>
+                </li>
+
 
 
             </ul>
