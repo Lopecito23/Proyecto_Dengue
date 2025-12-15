@@ -135,7 +135,7 @@
 
       
             </div> <?php 
-        // 5. INCLUIR EL PIE DE PÁGINA (FOOTER)
+        
         include '../view/partials/footer.php'; 
         ?>
 

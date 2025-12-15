@@ -137,6 +137,51 @@
                     </div>
                 </li>
 
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="listTanques.php#tanques">
+                        <i class="fas fa-user-shield"></i>
+                        <p>Tanques</p>
+                        <span class="caret"></span>
+                    </a>
+                    <div class="collapse" id="tanques">
+                        <ul class="nav nav-collapse">
+                            <li>
+                                <a href="<?php echo getUrl("Tanques", "Tanques", "getAll"); ?>">
+                                    <span class="sub-item">Listar Tanques</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo getUrl("Tanques", "Tanques", "getCreate"); ?>">
+                                    <span class="sub-item">Nuevo Tanque</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" href="listSeguimientos.php#seguimientos">
+                        <i class="fas fa-user-shield"></i>
+                        <p>Seguimientos</p>
+                        <span class="caret"></span>
+                    </a>
+                    <div class="collapse" id="seguimientos">
+                        <ul class="nav nav-collapse">
+                            <li>
+                                <a href="<?php echo getUrl("Seguimientos", "Seguimientos", "getCreate"); ?>"
+                                    class="disabled-link">
+                                    <span class="sub-item">Crear Seguimientos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo getUrl("Seguimientos", "Seguimientos", "getList"); ?>">
+                                    <span class="sub-item">Listar Seguimientos</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
 
                 <li class="nav-item">
                     <a href="#" class="disabled-link">
@@ -151,6 +196,8 @@
                         <p>Reportes</p>
                     </a>
                 </li>
+
+
 
             </ul>
         </div>
